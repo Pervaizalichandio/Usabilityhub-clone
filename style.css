@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: mk;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
   text-transform: capitalize;
 }
-
+html,
+body {
+  font-size: 62.5%;
+}
 root {
   --color: #101315;
   --bg-white: #fff;
@@ -47,11 +50,6 @@ body {
   top: 0;
   z-index: 1000; /* Ensure it's above other content */
   /* Background color to avoid transparency issues */
-}
-
-@font-face {
-  font-family: mk;
-  src: url(/assets/images/source-sans-pro-v14-latin-600.woff2);
 }
 
 .logo img {
@@ -389,7 +387,7 @@ a:hover .ri-arrow-right-line {
   height: 330px;
   background: black;
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)),
-    url("/assets/work/image/download.jpeg");
+    url("download.jpeg");
   transition: 0.2s ease-out;
   background-size: cover;
 }
@@ -400,7 +398,7 @@ a:hover .ri-arrow-right-line {
   height: 330px;
   background: black;
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)),
-    url("/assets/work/image/73fee3b6bd68e1295ec099eea13300f6.jpeg");
+    url("73fee3b6bd68e1295ec099eea13300f6.jpeg");
   transition: 0.2s ease-out;
   background-size: cover;
 }
@@ -411,7 +409,7 @@ a:hover .ri-arrow-right-line {
   height: 330px;
   background: black;
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)),
-    url("/assets/work/image/download\ \(1\).jpeg");
+    url("download\ \(1\).jpeg");
   transition: 0.2s ease-out;
   background-size: cover;
 }
@@ -426,7 +424,7 @@ a:hover .ri-arrow-right-line {
       rgba(255, 255, 0, 0.288),
       rgba(255, 0, 0, 0.292)
     ),
-    url("/assets/work/image/download\ \(2\).jpeg");
+    url("download\ \(2\).jpeg");
   transition: 0.2s ease-out;
   background-size: cover;
 }
@@ -487,8 +485,6 @@ h6 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* color: white; */
-  /* color: var(--bg-white); */
 }
 .He h6 {
   font-size: 50px;
@@ -525,7 +521,7 @@ h6 {
   height: 330px;
   background: black;
   background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)),
-    url("/assets/work/image/download.jpeg");
+    url("download.jpeg");
   transition: 0.2s ease-out;
   background-size: cover;
 }
@@ -535,8 +531,7 @@ h6 {
   width: 250px;
   height: 330px;
   background: black;
-  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)),
-    url("/assets/work/image/73fee3b6bd68e1295ec099eea13300f6.jpeg");
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8));
   transition: 0.2s ease-out;
   background-size: cover;
 }
@@ -546,8 +541,7 @@ h6 {
   width: 250px;
   height: 330px;
   background: black;
-  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)),
-    url("/assets/work/image/download\ \(1\).jpeg");
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8));
   transition: 0.2s ease-out;
   background-size: cover;
 }
@@ -558,11 +552,10 @@ h6 {
   height: 330px;
   background: black;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(255, 255, 0, 0.288),
-      rgba(255, 0, 0, 0.292)
-    ),
-    url("/assets/work/image/download\ \(2\).jpeg");
+    rgba(0, 0, 0, 0.6),
+    rgba(255, 255, 0, 0.288),
+    rgba(255, 0, 0, 0.292)
+  );
   transition: 0.2s ease-out;
   background-size: cover;
 }
