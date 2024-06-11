@@ -24,11 +24,7 @@ li:hover {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
 }
-body,
-html {
-  font-size: 62.5%;
-}
-root {
+:root {
   --color: #101315;
   --bg-white: #fff;
   --bg-black: #000;
@@ -124,9 +120,8 @@ li:hover {
 .left-section a {
   text-decoration: none;
   color: var(--bg-white);
-  border: 1px solid var(--color);
+  white-space: nowrap;
   border-radius: 8px;
-  background-color: var(--color);
   padding: var(--padding);
 }
 .right-section,
@@ -252,7 +247,6 @@ li:hover {
 .feature-btns a {
   text-decoration: none;
   color: #000;
-  color: var(--bg-white);
 }
 .feature-btns:hover a {
   color: #00f;
@@ -434,15 +428,12 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: start;
-  background-color: #ebf2fb;
-  background-color: var(--bg-black);
-  padding: 70px;
+  padding: 50px 0;
   gap: 70px;
   list-style: none;
 }
 .lastcenter li {
   line-height: 42px;
-  color: var(--bg-white);
 }
 .one {
   display: block;
