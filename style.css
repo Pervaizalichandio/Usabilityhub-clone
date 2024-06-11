@@ -6,10 +6,14 @@ root {
 .topheader {
   text-transform: capitalize;
 }
-.log,
+
 .topheader {
-  background-color: #4fb3d4;
+  background: url(background.png);
+  background-size: 300px;
+  background-color: #e74694;
+  color: white;
 }
+
 .btn:hover a,
 .log:hover,
 .see-here :hover,
@@ -48,18 +52,7 @@ body {
 .hamburger {
   display: none;
 }
-.topheader {
-  text-align: start;
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  background-size: 150px;
-  height: 50px;
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
+
 .log,
 .sign {
   padding: 10px 15px;
@@ -451,24 +444,7 @@ p {
   background-color: #333;
   color: #fff;
 }
-.toggle {
-  text-align: start;
-  margin-top: -3px;
-}
-h1 {
-  color: #333;
-}
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
+
 .slider {
   position: absolute;
   top: 0;
