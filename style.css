@@ -153,9 +153,6 @@ li:hover {
   margin: 0 auto;
   text-align: center;
 }
-.btn:hover a {
-  color: #000;
-}
 .research-heading {
   text-align: center;
   padding: 30px;
@@ -437,50 +434,10 @@ p {
   justify-content: center;
   gap: 20px;
   padding: 20px 0;
-  background-color: #b9cee4;
+  background-color: rgba(0, 0, 255, 0.571);
   color: var(--bg-white);
 }
-.dark-mode {
-  background-color: #333;
-  color: #fff;
-}
 
-.slider {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  border-radius: 34px;
-}
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: #fff;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-input:checked + .slider {
-  background-color: #2196f3;
-}
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-.slider.round {
-  border-radius: 34px;
-}
 @media screen and(max-width:1024px) {
   .hero-section {
     display: flex;
