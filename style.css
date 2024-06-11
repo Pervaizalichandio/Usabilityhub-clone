@@ -59,9 +59,10 @@ body {
   color: #000;
   letter-spacing: 0;
 }
-.logo img {
+.log1 img {
   background-color: #fff;
   border-radius: 10px;
+  height: 35px;
 }
 .header {
   display: flex;
@@ -125,7 +126,7 @@ li:hover {
   flex-basis: 40%;
 }
 .right-section img {
-  width: 500px;
+  width: 37vw;
 }
 .image-title h2 {
   text-align: center;
