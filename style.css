@@ -418,19 +418,32 @@ p {
 .end {
   text-align: center;
 }
+
 .lastcenter {
   display: flex;
   justify-content: space-around;
   align-items: start;
   padding: 50px 0;
-  gap: 70px;
   list-style: none;
 }
-.lastcenter li {
-  line-height: 42px;
+
+.one nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.one {
-  display: block;
+.two nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.three nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .footer {
   display: flex;
